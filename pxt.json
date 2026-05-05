@@ -4,7 +4,12 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "audio-recording": "*",
+        "pxt-flexfx": "github:grandpabond/pxt-flexfx#v2.2.7",
+        "sonification": "github:davidnsousa/sonification#v1.0.6",
+        "midi": "github:microsoft/pxt-midi#v2.2.0",
+        "pxt-meter": "github:grandpabond/pxt-meter#v0.1.20"
     },
     "files": [
         "main.blocks",
@@ -20,5 +25,6 @@
     },
     "supportedTargets": [
         "microbit"
-    ]
+    ],
+    "preferredEditor": "tsprj"
 }
